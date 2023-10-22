@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+}
+
+.CodeMirror{
+  height: 100% !important;
+  background-color: #1d1e22 !important;
+  color: #fff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.CodeMirror-gutters{
+  background: #1d1e22 !important;
+}
+
+.CodeMirror-scroll{
+  background: #1d1e22;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden !important;
+}
+
+.CodeMirror-wrap pre {
+  word-break: break-word !important;
+}
+
